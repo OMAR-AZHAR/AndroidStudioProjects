@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bubblesgame">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="411dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="310dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <ImageButton
+            android:id="@+id/imgb"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_weight="0"
+            android:onClick="exit"
+            app:srcCompat="@android:drawable/btn_dialog"
+            tools:layout_editor_absoluteX="371dp"
+            tools:layout_editor_absoluteY="3dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="138dp"
+        android:layout_height="637dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/sav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

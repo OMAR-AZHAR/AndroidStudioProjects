@@ -1,0 +1,18 @@
+<resources>
+    <string-array name="cc">
+        <item>
+            USD
+        </item>
+        <item>
+            Euro
+        </item>
+        <item>
+          Pound Sterling
+        </item>
+        <item>
+           Saudi Riyal
+        </item>
+
+    </string-array>
+
+</resources>

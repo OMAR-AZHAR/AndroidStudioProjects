@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SP18-BSE-043-RecView</string>
+<string-array name="spiinner1">
+    <item>Original</item>
+    <item>Blue</item>
+    <item>Yellow</item>
+    <item>Green</item>
+    <item>Magenta</item>
+
+</string-array>
+</resources>
